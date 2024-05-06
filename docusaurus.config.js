@@ -8,7 +8,7 @@ module.exports = {
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     organizationName: 'your organization',
-    projectName: 'Ypur project',
+    projectName: 'Your project',
     plugins: //for tag manager - install the plugin
         [[ require.resolve('docusaurus-lunr-search'), 
           {
