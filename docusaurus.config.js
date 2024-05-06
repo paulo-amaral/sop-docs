@@ -1,14 +1,14 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-    title: 'Documentação de Servidores do TRIBUNAL',
-    tagline: 'Tribunal de Recurso TIMOR-LESTE',
-    url: 'https://docs.tribunais.tl',
+    title: 'Title',
+    tagline: 'docs bla bla bla',
+    url: 'https://docs.domain.com',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
-    organizationName: 'Tribunal',
-    projectName: 'Tribunal',
+    organizationName: 'your organization',
+    projectName: 'Ypur project',
     plugins: //for tag manager - install the plugin
         [[ require.resolve('docusaurus-lunr-search'), 
           {
@@ -25,9 +25,9 @@ module.exports = {
             trackingID: '',
         },
         navbar: {
-            title: 'Tribunal de Recurso',
+            title: 'Title
             logo: {
-                alt: 'TR Logo',
+                alt: 'Logo',
                 src: 'img/logo.png',
             },
             items: [
@@ -38,12 +38,12 @@ module.exports = {
                 //     label: 'Documentos',
                 // },
                 {
-                    to: 'https://www.tribunais.tl',
+                    to: 'https://www.domain.com',
                     label: 'Website',
                     position: 'left',
                 },
                 {
-                    href: 'https://git.tribunais.tl',
+                    href: 'https://git.domain.com',
                     label: 'GitLab TR',
                     position: 'right',
                 },
@@ -53,11 +53,11 @@ module.exports = {
             style: 'dark',
             links: [
                 {
-                    title: 'TIC - Tribunal de Recurso',
+                    title: 'ICT',
                     items: [
                         {
-                            label: 'docs.tribunais.tl',
-                            to: 'https://docs.tribunais.tl/',
+                            label: 'docs.domain.com',
+                            to: 'https://docs.domain.com/',
                         },
                        
                     ],
@@ -66,8 +66,8 @@ module.exports = {
                     title: 'GIT',
                     items: [
                         {
-                            label: 'Git Tribunais',
-                            href: 'https://git.tribunais.tl',
+                            label: 'Git',
+                            href: 'https://git.domain.com',
                         },
                     ],
                 },
