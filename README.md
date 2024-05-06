@@ -75,6 +75,8 @@ npm i mdx-mermaid mermaid
 ``
 ### Configure in Docusaurus
 
+don't forget to change `docusaurus.config.js`
+
 Add
 
 ```js
